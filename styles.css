@@ -196,7 +196,9 @@ a  { text-decoration: none; color: inherit; }
   .hero-h1-block {
     padding-top: 0;
     padding-bottom: 0;
+    width: 100%;
     max-width: 860px;
+    margin: 0 auto;
     text-align: center;
   }
 
@@ -245,6 +247,7 @@ a  { text-decoration: none; color: inherit; }
   .hero-inner {
     position: relative;
     z-index: 2;
+    width: 100%;
     margin-top: -120px;
     padding-top: 0;
     padding-bottom: 64px;
