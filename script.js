@@ -2,6 +2,20 @@
    MERCES ADVOCACIA — script.js
    ============================================================ */
 
+/* ── Google Ads: evento de conversão WhatsApp ─────────────── */
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+    'send_to': 'AW-18180445744/qNQICJTHz7UcELCsjt1D',
+    'event_callback': callback
+  });
+  return false;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
 
   /* ── Scroll animations (Intersection Observer) ─────────── */
